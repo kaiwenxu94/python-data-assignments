@@ -24,7 +24,7 @@ url - string e.g. https://cpj.org/data/people/abadullah-hananzai/index.php
 CC4.0
 
 ## Obstacles and Solutions
-As I scraped the information page by page, python reported error*element is not attached to the page document*. I solved the problem by increasing the duration time in time.sleep() and allowing the python to have sufficient time to scrape each page before it clicked "next page" automatically.
+As I scraped the information page by page, python reported error *element is not attached to the page document*. I solved the problem by increasing the duration time in time.sleep() and allowing the python to have sufficient time to scrape each page before it clicked "next page" automatically. However, it is time-consuming.
 
 ## Future Work
 Explore and scrape the detailed personal information contained in the "url" section and add more data fields, including their gender, job, beats covered and so on and so forth. 
