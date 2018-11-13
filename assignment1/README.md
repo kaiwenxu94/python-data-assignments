@@ -19,12 +19,22 @@ url - string e.g. https://cpj.org/data/people/abadullah-hananzai/index.php
 
 ## Data Volume
 1324 rows × 6 columns
+The data volume I have finally got is exactly the number of items shown in the dataset website
+
+![a](https://github.com/kaiwenxu94/images/blob/master/Capture.PNG)
 
 ## License
 CC4.0
 
 ## Obstacles and Solutions
 As I scraped the information page by page, python reported error *element is not attached to the page document*. I solved the problem by increasing the duration time in time.sleep() and allowing the python to have sufficient time to scrape each page before it clicked "next page" automatically. However, it is time-consuming.
+(The following content was updated on 2018/11/13) In addition, there is a small error that is shown after scaping. In the last page(page 67), there is no "next" button, so after python scaped all the data in page 67, it could not find the "next" button, and Python reported the error below:
+
+![a](https://github.com/kaiwenxu94/images/blob/master/Capture1.PNG)
+
+Even though the final result is correct, I think my code in the final part could be refined as follows:
+
+![a](https://github.com/kaiwenxu94/images/blob/master/Capture2.PNG)
 
 ## Future Work
 Explore and scrape the detailed personal information contained in the "url" section and add more data fields, including their gender, job, beats covered and so on and so forth. 
