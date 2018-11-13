@@ -27,8 +27,8 @@ The data volume I have finally got is exactly the number of items shown in the d
 CC4.0
 
 ## Obstacles and Solutions
-As I scraped the information page by page, python reported error *element is not attached to the page document*. I solved the problem by increasing the duration time in time.sleep() and allowing the python to have sufficient time to scrape each page before it clicked "next page" automatically. However, it is time-consuming.
-(The following content was updated on 2018/11/13) In addition, there is a small error that is shown after scaping. In the last page(page 67), there is no "next" button, so after python scaped all the data in page 67, it could not find the "next" button, and Python reported the error below:
+As I scraped the information page by page, python reported error *element is not attached to the page document*. I solved the problem by increasing the duration time in time.sleep() and allowing the python to have sufficient time to scrape each page before it clicked "next page" automatically. However, it is time-consuming.  
+In addition, there is a small error that is shown after scaping. In the last page(page 67), there is no "next" button, so after python scaped all the data in page 67, it could not find the "next" button, and Python reported the error below:
 
 ![a](https://github.com/kaiwenxu94/images/blob/master/Capture1.PNG)
 
