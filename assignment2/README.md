@@ -7,4 +7,4 @@ The death of Washington Post columnist Jamal Khashoggi in Saudi consulate in Ist
 
 Please read the report note [here](http://nbviewer.jupyter.org/github/kaiwenxu94/python-data-assignments/blob/master/assignment2/Assignment2-v2.ipynb).
 
-Note: There is an interaction diagram but there is no any interactive effect in the nbviewer page. You need to drag the svg into a blank new webpage to experience the interactive effect. 
+Note: There is an interaction diagram but there is no any interactive effect in the nbviewer page. You need to drag the svg into a blank new webpage to experience the interactive effect. If you use Google Chrome, you can right click 'open image in new tab' to try out the interaction effect.
